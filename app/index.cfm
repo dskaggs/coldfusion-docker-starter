@@ -1,0 +1,1 @@
+<cfoutput>#dateFormat( now(), "long" )#</cfoutput>

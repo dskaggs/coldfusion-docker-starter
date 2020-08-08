@@ -1,0 +1,16 @@
+version: "3" 
+services:
+  coldfusion:
+    container_name: coldfusion 
+    image: eaps-docker-coldfusion.bintray.io/cf/coldfusion:latest
+    env_file: coldfusion.env
+    ports:
+    - 8500:8500
+    volumes:
+    - ${PWD}/app:/app
+    - ${PWD}/logs/:/opt/coldfusion/cfusion/logs/
+    networks: 
+      - web
+
+networks:
+  web:  
