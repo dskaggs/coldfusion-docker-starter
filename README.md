@@ -17,7 +17,7 @@ The only prerequisite that you need to use this repo is to have Docker installed
 
 *Notes*
 * If you're on Mac or Linux (including WSL), you'll need to run the `fixperms.sh` file in the root of the repo to set the permissions on the `logs/` folder correctly so that ColdFusion can create its log files there.
-* If you have several projects, you may want to rename the container and network to avoid naming conflicts between clients. Change the string "coldfusion" on line 3 and "web" on line 15 of `docker-compose.yml` to something project specific
+* If you have several projects, you may want to rename the container and network to avoid naming conflicts between clients. Change the string "coldfusion" on line 3 and "web" on lines 13 and 15 of `docker-compose.yml` to something project specific
 * if you need a specific version of ColdFusion, you can specify 
 
 ## Contributing
