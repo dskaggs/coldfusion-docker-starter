@@ -1,7 +1,6 @@
 version: "3" 
 services:
   coldfusion:
-    container_name: coldfusion 
     image: eaps-docker-coldfusion.bintray.io/cf/coldfusion:latest
     env_file: coldfusion.env
     ports:
