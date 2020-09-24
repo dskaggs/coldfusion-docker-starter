@@ -17,7 +17,7 @@ The only prerequisite that you need to use this repo is to have Docker installed
 
 *Notes*
 * If you're on Mac or Linux (including WSL), you'll need to run the `fixperms.sh` file in the root of the repo to set the permissions on the `logs/` folder correctly so that ColdFusion can create its log files there.
-* If you need a specific version of ColdFusion, you can specify a particular tag on line 5 of `docker-compose.yml`. You can find a complete list of tags for the image [here](https://bintray.com/eaps/coldfusion/cf%3Acoldfusion)
+* If you need a specific version of ColdFusion, you can specify a particular tag on line 4 of `docker-compose.yml`. You can find a complete list of tags for the image [here](https://bintray.com/eaps/coldfusion/cf%3Acoldfusion)
 
 ## Contributing
 I'd love to hear from you on what else you would like to see in this starter project. Please create an issue on the repo or clone the repo and submit a PR with your proposed changes.
